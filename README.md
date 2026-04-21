@@ -8,7 +8,7 @@ A simple Flask-based API to create and share notes between users using MongoDB.
 - **Notes Storage**: 
     - Each note has an `owner_id`.
     - Each note has a `shared_with` list containing IDs of users who can see the note.
-- **Sharing**: The owner of a note can add another user's ID to the `shared_with` list.
+- **Sharing**: The owner of a note can add another user's ID to the `shared_with` lis
 - **Retrieval**: When fetching notes for a user, the API returns both their owned notes and notes where their ID is in the `shared_with` list.
 
 ## Endpoints
