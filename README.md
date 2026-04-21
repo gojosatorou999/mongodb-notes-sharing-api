@@ -2,7 +2,7 @@
 
 A simple Flask-based API to create and share notes between users using MongoDB.
 
-## Logic Overview
+# Logic Overview
 
 - **User System**: Very basic user registration using a username.
 - **Notes Storage**: 
