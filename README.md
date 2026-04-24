@@ -28,7 +28,7 @@ A simple Flask-based API to create and share notes between users using MongoDB.
    - Body: `{"owner_id": "string", "target_user_id": "string"}`
    - Share a note with another user.
 
-## Setup
+## Setup :
 
 1. Install dependencies:
    ```bash
